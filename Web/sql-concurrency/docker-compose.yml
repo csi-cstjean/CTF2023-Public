@@ -1,0 +1,12 @@
+version: '3'
+services:
+  mariadb:
+    build:
+      context: .
+    environment:
+      MYSQL_ROOT_PASSWORD: root_password_here
+      MYSQL_DATABASE: CoDi
+      MYSQL_USER: user
+      MYSQL_PASSWORD: password
+    ports:
+      - "3306:3306"

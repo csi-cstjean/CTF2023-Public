@@ -1,0 +1,6 @@
+services:
+  web:
+    container_name: "nginxAuth105"
+    build: ./
+    ports:
+      - "9004:80"

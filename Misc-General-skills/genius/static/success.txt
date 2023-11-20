@@ -1,0 +1,12 @@
+Résultats
+
+Félicitations ! Vous avez réussi l'examen "{{ exam_name }}".
+
+Flag : {{ flag }}
+
+{% if has_next %}
+    Clé pour déverrouiller le prochain examen : {{ next_key }}
+{% else %}
+    Vous avez résolu le challenge ultime. Vous êtes maintenant un génie comme Eugène Claprood.
+{% endif %}
+

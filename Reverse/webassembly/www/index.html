@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Message secret</title>
+    <script type="module" src="./js/index.js"></script>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Le Canada-Français</h1>
+        <h2>St-Jean mérite un collège</h2>
+        <p>
+            En 1907, une délégation de Saint-Jean, où la population réclame un collège depuis longtemps, est envoyée
+            auprès de la corporation du collège St-Marie-de-Monnoir, dont l'immeuble a été détruit par un incendie, afin
+            de l'inviter à reconstruire à Saint-Jean. La ville fait des offres intéressantes, et le collège est prêt à
+            déménager, mais l'évêque de Saint-Hyacinthe, Mgr A.X. Bernard, s'y oppose.
+        </p>
+        <p id="crypted" class="crypted-msg"></p>
+        <form id="decoding-form">
+            <label for="key">Clé de décryptage</label>
+            <input type="text" name="Clé" id="key" value="">
+            <button type="submit">Décoder</button>
+        </form>
+    </div>
+</body>
+
+</html>

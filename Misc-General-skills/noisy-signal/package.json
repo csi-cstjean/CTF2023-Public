@@ -1,0 +1,11 @@
+{
+  "name": "noisy-signal",
+  "version": "1.0.0",
+  "description": "The flag is corrupted by a bad signal",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "EspressoHunter",
+  "license": "ISC"
+}

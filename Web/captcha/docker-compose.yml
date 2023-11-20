@@ -1,0 +1,8 @@
+services:
+  captcha1:
+    container_name: captcha1
+    build: .
+    ports:
+      - 80:80
+    volumes:
+      - ./site:/var/www/html

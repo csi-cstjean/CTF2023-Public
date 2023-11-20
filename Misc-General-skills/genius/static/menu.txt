@@ -1,0 +1,7 @@
+Bienvenue dans l'examen mathématique d'Eugène Claprood.
+
+Choisissez une option :
+1. Liste des examens
+2. Passer un examen
+3. Quitter
+

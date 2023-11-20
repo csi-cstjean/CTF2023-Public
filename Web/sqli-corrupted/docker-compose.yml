@@ -1,0 +1,19 @@
+services:
+  sqli1-corrupted:
+    container_name: sqli1-corrupted
+    build: .
+    ports:
+      - 80:80
+    volumes:
+      - ./site:/var/www/html
+
+  sqli1-corrupted-db:
+    container_name: sqli1-corrupted-db
+    image: mariadb:11
+    environment:
+      - MYSQL_ROOT_PASSWORD=vPbm20oRRu8uPIlSsm
+      - MYSQL_DATABASE=database
+    ports:
+      - :3306
+    volumes:
+      - ./data:/docker-entrypoint-initdb.d

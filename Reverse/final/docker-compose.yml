@@ -1,0 +1,9 @@
+version: '3'
+
+
+
+services:
+  final:
+    build: .
+    ports:
+      - 1337:1337

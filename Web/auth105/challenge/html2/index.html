@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="./index.js" defer></script>
+    <link rel="stylesheet" href="./index.css">
+</head>
+<body>
+    
+    <div id="loginContainer" class="login">
+        <h1>Login</h1>
+        <form>
+            <input type="text" name="u" placeholder="Username" required="required" />
+            <input type="password" name="p" placeholder="Password" required="required" />
+            <button id="login-btn" type="button" class="btn btn-primary btn-block btn-large">Let me in.</button>
+        </form>
+    <div id="errorContainer"></div>
+    </div>
+
+    <script>
+        const loginBtn = document.getElementById('login-btn');
+        loginBtn.addEventListener('click', () => {
+            const username = document.getElementsByName('u')[0].value;
+            const password = document.getElementsByName('p')[0].value;
+            login(username, password);
+        });
+    </script>
+</body>
+</html>
+  
+  <!-- 
+  
+  
+  .auth-wrap-background
+  
+      .auth-center
+          .auth-blur.auth-size
+              .auth-wrap-background
+      
+      .auth-center
+          .auth__inner.auth-size
+              .auth__sidebar.auth__inner__section
+          
+              .auth__form.auth__inner__section
+                  .form
+                      h1.form__title Welcome back
+          
+                      label.form__label
+                          span.form__label__text Email
+                          input.form__input
+                          .form__input-border
+                          
+                      label.form__label
+                          span.form__label__text Username
+                          input.form__input
+                          .form__input-border
+                      
+                      button.button Login
+                      
+                      //- .form__meta
+                      //- 	span Need an account?
+                      //- 	a(href="") Register
+                      
+                      
+   -->

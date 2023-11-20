@@ -1,0 +1,36 @@
+
+.container {
+    font-family: "Times New Roman", Times, serif; /* Use a serif font for a classic look */
+    background-color: #f7f3e9; /* Off-white background color */
+    padding: 20px; /* Add some padding to the container */
+    border: 2px dashed #ccc; /* Add a border for a newspaper column effect */
+    border-radius: 10px; /* Rounded corners */
+    max-width: 800px;
+    min-height: 500px;
+    margin: auto;
+    opacity: 0.99;
+  }
+  
+  h1 {
+    font-size: 28px; /* Large font size for the main headline */
+    text-align: center; /* Center the headline */
+    margin-bottom: 20px; /* Add space below the headline */
+  }
+  
+  h2 {
+    font-size: 24px; /* Slightly smaller font size for subheadings */
+    text-decoration: underline; /* Underline the subheadings */
+    text-align: center;
+  }
+  
+  p {
+    font-size: 16px; /* Standard font size for paragraphs */
+    text-align: justify;
+  }
+  .crypted-msg{
+    z-index: -1;
+    opacity: 0.05;
+    position: absolute;
+    top:0;
+    max-width: 800px;
+  }
